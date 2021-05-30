@@ -393,6 +393,7 @@ header {
   .movies__list__image__modal {
     display: flex;
     opacity: 0;
+    z-index: -1;
     width: 550px;
     height: 280px;
     position: absolute;
@@ -402,9 +403,10 @@ header {
     border-radius: 3px;
     background-size: cover;
     background-image: url("https://images-1.wuaki.tv/system/shots/228525/original/raya-and-the-last-dragon-1615550558-width1920-quality80.jpeg");
-    transition: opacity 0.3s linear 0.5s;
+    transition: all 0.3s linear 0.5s;
   }
   .movies__list__image__modal:hover {
+    z-index: 1;
     opacity: 1;
   }
   .movies__list__image__modal h1 {
@@ -479,6 +481,7 @@ header {
 
 @media (min-width: 999px) {
   .movies__list__image__item:hover + .movies__list__image__modal {
+    z-index: 1;
     opacity: 1;
   }
 }
