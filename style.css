@@ -404,6 +404,9 @@ header {
     background-image: url("https://images-1.wuaki.tv/system/shots/228525/original/raya-and-the-last-dragon-1615550558-width1920-quality80.jpeg");
     transition: opacity 0.3s linear 0.5s;
   }
+  .movies__list__image__modal:hover {
+    opacity: 1;
+  }
   .movies__list__image__modal h1 {
     white-space: nowrap;
     overflow: hidden;

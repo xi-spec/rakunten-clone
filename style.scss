@@ -448,6 +448,10 @@ header{
         background-size: cover;
         background-image: url("https://images-1.wuaki.tv/system/shots/228525/original/raya-and-the-last-dragon-1615550558-width1920-quality80.jpeg");
         transition: opacity 0.3s linear .5s;
+
+        &:hover{
+            opacity: 1;
+        }
     
         h1{
             white-space:nowrap;
