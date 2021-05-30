@@ -391,6 +391,7 @@ header {
 }
 @media (min-width: 999px) {
   .movies__list__image__modal {
+    display: flex;
     opacity: 0;
     width: 550px;
     height: 280px;

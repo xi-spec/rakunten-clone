@@ -435,8 +435,8 @@ header{
 
 .movies__list__image__modal{
     display: none;
-
     @include desktop{
+        display: flex;
         opacity: 0;
         width: 550px;
         height: 280px;
@@ -522,6 +522,7 @@ header{
 
 .movies__list__image__item:hover + .movies__list__image__modal{
     @include desktop{
+   
         opacity: 1;
     }
 }
